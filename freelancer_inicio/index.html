@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer | Rodrigo Ramírez</title>
+</head>
+<body>
+    <header>
+        <h1>Freelancer | PHP & Javascript</h1>
+        <nav>
+            <a href="freelancer_inicio/index.html">Inicio</a>
+            <a href="freelancer_inicio/servicios.html">Servicios</a>
+            <a href="freelancer_inicio/portafolio.html">Portafolio</a>
+            <a href="freelancer_inicio/contacto.html">Contacto</a>
+        </nav>
+        <div class="imagen-hero">
+            <img src="hero.jpg" alt="Hero">
+            <p>Rodrigo Ramírez | Desarrollador Web</p>
+            <p>Colima, Col. México</p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+              </svg>
+              
+              
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Mis Servicios</h2>
+            <div>
+                <h3>Desarollo Web</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In soluta explicabo aperiam sint dolores, nulla deserunt qui libero quaerat laboriosam repellendus et quibusdam delectus. Hic tempora sint nihil quisquam! Consequatur.</p> 
+            </div>
+            <div>
+                <h3>Desarollo de Aplicaciones</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In soluta explicabo aperiam sint dolores, nulla deserunt qui libero quaerat laboriosam repellendus et quibusdam delectus. Hic tempora sint nihil quisquam! Consequatur.</p>
+            </div>
+            <div>
+                <h3>Desarollo de Software</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In soluta explicabo aperiam sint dolores, nulla deserunt qui libero quaerat laboriosam repellendus et quibusdam delectus. Hic tempora sint nihil quisquam! Consequatur.</p>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="freelancer_inicio/contacto.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2025 | Rodrigo Ramírez</p>
+        </footer>
+    </main>
+    
+</body>
+</html>
