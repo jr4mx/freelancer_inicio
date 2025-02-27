@@ -1,0 +1,18 @@
+p {
+    color:blue;
+    text-align: center;
+}
+.contenido .cuerpo {
+    color: green;
+}
+.cuerpo {
+    color: red;
+}
+.cuerpo {
+    color: rgb(179, 27, 255) !important;
+}
+
+h1 {
+    color: rgb(97, 95, 95);
+    text-align: center;
+}

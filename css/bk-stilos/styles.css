@@ -129,7 +129,7 @@ h1,h2,h3 {
 
 /* Hero */
 .hero {
-    background-image: url(../img/hero.jpg);
+    background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
@@ -249,4 +249,10 @@ h1,h2,h3 {
 /** Footer **/
 .footer {
     text-align: center;
+    background-color: #363882;
+    height: 8rem;
+}
+.footer p {
+    color: var(--blanco);
+    line-height: 5rem;
 }

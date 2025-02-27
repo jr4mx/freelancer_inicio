@@ -1,6 +1,223 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --grisClaro: #DFE9F3;
+    --fontEstilo:'Poppins', sans-serif;
+}
 body {
     background-color: #f3f3f3;
-    font-family: Arial, sans-serif;
+    font-family:--fontEstilo;
     margin: 0;
     padding: 0;
+    width:100%;
+    margin: 0 auto;
+}
+html {
+    box-sizing: border-box; 
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+.hero {
+    color: #3a3a3a;
+    background-image: url(../images/cover_r4mx1.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #212121;
+    border-radius: 10rem;
+
+}
+   .info_texto {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f9f9f9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: .5rem;  
+}
+.info_texto span {
+     /*posicinar debajo del elemento anterior*/
+    display: block;
+    clear: both;
+    margin-top: 10px;;
+    font-size: .8rem;
+}
+.info_texto_button {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: .2rem 1rem;
+    text-decoration: none;
+    border-radius: .2rem;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+
+header {
+    background-color:--blanco;
+    text-shadow: #0097A7;
+    /*efecto de sombra*/
+
+    color: #3c3c3c;
+    padding: 1rem 0;
+    text-align: center;
+}
+header span {
+    font-size: .5rem;
+}
+.encabezado h1 {
+    margin: 0;
+}
+.encabezado span {
+    font-size: .5rem;
+}
+
+li {
+    list-style: none;
+    color: #656363;
+
+
+}
+li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: .5rem 1rem;
+    display: block;
+    /*background-color: #c4c4c4;*/
+    transition: 0.5s;
+}
+li a:hover {
+    background-color: #c4c4c4;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex inline;
+    justify-content: center;
+    height: 100vh;
+    gap: 1rem;
+
+}
+
+nav {
+    background-color:var(--gris);
+    text-align: center;
+    height: 2rem;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.iconos_color {
+    color: var(--primario)
+
+}
+h2 {
+    color: var(--oscuro);
+    text-align: center;
+}
+
+.servicios_contenido {
+    margin: 0 auto;
+    justify-content: center;
+    width: 90%;
+    background-color: var(--grisClaro);
+    padding: 1rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.div_redondo {
+height: 7rem;
+width: 7rem;
+border-radius: 50%;
+background-color: var(--primario);
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+
+}
+
+footer {
+    /*agregar footer con burbujas*/
+    background-color: var(--gris);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contacto {
+    margin: 2rem auto;
+    width:90%;
+    height: 100vh;
+}
+
+.form_datos {
+    background-color: #757575;
+    width:80%;
+    margin:2rem auto;
+    left:50%;
+    padding: 5rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--primario);
+
+}
+.campo textarea {
+    height: 30rem;
+    width: 100%;
+}
+
+.input-text {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: none;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.boton_enviar {
+    width: 10rem;
+    margin: auto;
+    color: #212121;
+    background-color: #FFC107;
+    border-radius: 10%;
 }
