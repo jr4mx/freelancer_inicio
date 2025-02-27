@@ -1,0 +1,5 @@
+# Ignorar la carpeta css/backupcss y todo su contenido
+css/backupcss/
+
+# Ignorar el archivo index_bak.html en la raíz
+/index_bak.html

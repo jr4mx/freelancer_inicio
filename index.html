@@ -19,15 +19,27 @@
         </ul>
     </nav>
 
-    <main>
+    <main class="" style="display:block;">
         <section class="hero">
             <p class="info_texto">
-                <svg  class="iconos_color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" stroke-width="2"> <path d="M13 9a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-10z"></path> <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9"></path> <path d="M16 9h2"></path> </svg> 
-                Diseño y desarrollo Web <strong style="font-size: .5rem !important;">Freelancer</strong>
-             <span> <svg class="iconos_color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="28" height="28" stroke-width="2"> <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path> <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path> </svg> Colima Col. México</span>  
-             <button class="info_texto_button">Contactar</button>
+                <svg class="iconos_color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" stroke-width="2"> 
+                    <path d="M13 9a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-10z"></path> 
+                    <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9"></path> 
+                    <path d="M16 9h2"></path> 
+                </svg>
+                 Diseño y desarrollo Web <strong>Freelancer</strong>
+                <span>
+                    <svg class="iconos_color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="28" height="28" stroke-width="2"> 
+                        <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path> 
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path> 
+                    </svg> 
+                    Colima, Col. México
+                </span>  
+        
+                <button class="info_texto_button">Contactar</button>
             </p> 
         </section>
+      <div class="div_seccion"></div>
       <div class="servicios_contenido">
         <section class="servicio_encabezado">
             <h2>Mis Servicios</h2>
@@ -59,22 +71,26 @@
         </section>
     </div>  
     <section class="contacto">
+        <h2>Contacto</h2>
         <form class="form_datos">
             <fieldset>
                 <div class="input-text nombre">
-                    <input type="text" placeholder="Ingresa tu nombre">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Ingresa tu nombre">
                 </div>
                 <div class="input-text email">
-                    <input type="email" placeholder="Ingresa tu email">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" placeholder="Ingresa tu email">
                 </div>
                 <div class="comentario">
-                    <textarea placeholder="Ingrese su comentario"> </textarea>
+                    <label for="mensaje">Comentario:</label>
+                    <textarea id="mensaje" placeholder="Ingrese su comentario"></textarea>
                 </div>
                 <div class="enviar_comentario">
                     <button class="boton_enviar">Enviar</button>
                 </div>
-           </fieldset>
-        </form>
+            </fieldset>
+        </form>  
     </section> 
  </main>
     <footer>
