@@ -240,6 +240,7 @@ h1,h2,h3 {
 }
 
 .input-text {
+    /*cambios en los inputs*/
     width: 100%;
     border: none;
     padding: 1.5rem;
