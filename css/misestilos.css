@@ -7,18 +7,24 @@
     --grisClaro: #DFE9F3;
     --fontEstilo:'Poppins', sans-serif;
 }
+* {
+   
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f3f3f3;
     font-family:Arial, Helvetica, sans-serif;
     font-size:x-large;
-    margin: 0;
+    margin: auto;
     padding: 0;
     width: 100%;
-    margin: 0 auto;
+    margin:auto;
 }
 html {
+width: 100%;    
 line-height: 1.5; /* 1 */
--webkit-text-size-adjust: 200%; /* 2 */
+-webkit-text-size-adjust: 100%; /* 2 */
 }
 
 h1 {
@@ -33,7 +39,7 @@ h1 {
     color: white;
     height: 70vh;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -74,7 +80,6 @@ h1 {
 }
 
 .div_seccion {
-    padding-top: -10rem;
     background-color: var(--primario);
     height: 5rem;
     width: 100%;
@@ -208,15 +213,16 @@ margin: 0 auto;
 }
 
 footer {
-    /*agregar footer con burbujas*/
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     background-color: var(--gris);
     color: var(--blanco);
     text-align: center;
-    padding: 1rem;
     position: relative;
-    bottom: 0;
     width: 100%;
 }
+
 
 .contacto {
     margin: 2rem auto;
