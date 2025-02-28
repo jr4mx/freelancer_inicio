@@ -149,7 +149,6 @@ ul {
     margin: 0;
     display: flex inline;
     justify-content: center;
-    height: 100vh;
     gap: 1rem;
 
 }
@@ -297,4 +296,14 @@ textarea {
     color: #212121;
     background-color: #FFC107;
     border-radius: 10%;
+}
+
+.patrocinadores {
+    display:grid;
+    grid-template-columns: repeat(4,1fr) ;
+}
+
+.patrocinadores ul {
+    color: #3c3c3c;
+    display:inline-table;
 }
